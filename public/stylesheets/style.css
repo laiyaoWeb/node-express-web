@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*样式重置*/
+body, h1, h2,h3,h4,h5,h6,p,dl,dd,ol,ul,form, input,textarea,th,td,select { margin:0; padding:0;}
+body{ min-width: 980px;margin:auto;}
+em,i { font-style:normal;}
+li { list-style:none;}
+a { text-decoration:none; cursor:pointer; }
+
+a:focus {outline:none;}
+b{ font-weight:normal;}
+img { border:none; vertical-align:top;}
+input, textarea,select{vertical-align: middle;outline: none; border:none; background:none;box-sizing:content-box;}
+textarea { resize:none; overflow:auto; }
+table { border-spacing:0px; border:none; border-collapse:collapse;}
+body, input, select, button, textarea { font-size: 12px;font-family:"微软雅黑",tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;background:#fff;}
+
+
+/*公共样式*/
+
+
+/*特殊*/
+.h0 {height: 0; line-height:0; font-size:0;}
+.ov-ellipsis { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; display:block;}
+.t-nowrap{ white-space: nowrap;}
+.select-not {-moz-user-select: none;-webkit-user-select: none; -ms-user-select: none;user-select: none;}
+.text-over { overflow:hidden; text-indent:99999px; line-height:99999; display:block;}
+
+
+/*浮动*/
+.clear { zoom:1; }
+.ovfl { overflow: hidden}
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left;}
+.fr { float:right;}
+
+

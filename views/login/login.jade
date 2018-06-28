@@ -1,0 +1,34 @@
+doctype html
+html
+    head
+        title 登录
+        meta(charset="utf-8")
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/login/loginStyle.css')
+        link(rel='stylesheet', href='/font/iconfont/iconfont.css')
+        link(rel='stylesheet', href='/javascripts/plugins/swiper/swiper.min.css')
+        script(type='text/javascript', src = '/javascripts/plugins/swiper/swiper.min.js').
+        script(type='text/javascript', src = '/javascripts/plugins/jquery-1.9.1.min.js').
+    body
+        .swiper-container
+            .swiper-wrapper
+                .swiper-slide
+                    img(src="images/1.jpg")
+                .swiper-slide
+                    img(src="images/2.jpg")
+                .swiper-slide
+                    img(src="images/3.jpg")
+        .rightBg
+            h2.blogTitle.owText 个人博客
+            .form
+                form
+                    .loginTitle 登录:
+                    .group-input
+                        i.iconfont.icon-yh
+                        input(type='text' placeholder='请输入用户名').inputText#userName
+                    .group-input
+                        i.iconfont.icon-password
+                        input(type='password' placeholder='请输入密码').inputText#password
+                    .group-input.submitBtn
+                        input(type='button' value='提交')
+    script(type='text/javascript', src = '/javascripts/app/login/login.js').

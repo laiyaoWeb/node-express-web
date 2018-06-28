@@ -1,0 +1,151 @@
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, #CDDC39, #8BC34A, #FFEB3B);
+    position: relative;
+    font-family: "Microsoft YaHei UI";
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide>img{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    width: 260px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.loginTitle{
+    font-size: 16px;
+    color: #888;
+    height: 30px;
+    line-height: 30px;
+}
+
+.group-input{
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.group-input>input{
+    vertical-align: middle;
+    display: inline-block;
+}
+.group-input>i{
+    padding: 0px 10px;
+}
+.group-input.submitBtn {
+    border: none;
+}
+.group-input.submitBtn>input[type=button]{
+    border: none;
+}
+
+.iconfont{
+    display: inline-block;
+    float: left;
+}
+.inputText{
+    width:220px;
+    height: 30px;
+    float: left;
+}
+
+
+
+/*去掉chrome input默认背景颜色*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.group-input.submitBtn>input{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background: #409EFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:focus, input[type=button]:hover {
+    background: #66b1ff;
+    border-color: #66b1ff;
+}
+input[type=button]:active {
+    background: #3a8ee6;
+    border-color: #3a8ee6;
+}
+
+.rightBg{
+    width: 400px;
+    height:100%;
+    background: #000;
+    position: fixed;
+    z-index: 9999;
+    right: 0px;
+    top: 0px;
+    background: rgba(000,000,000,0.3);
+}
+.blogTitle{
+    line-height: 60px;
+    text-indent: 20px;
+}
+
+.owText {
+    text-align: center;
+    -webkit-text-stroke: 2px #fff;
+    position: relative;
+    text-transform: uppercase;
+    color: #409EFF;
+    font-size: 3vw;
+    letter-spacing: 1.2vw;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #4a4a4e, -1px -1px 0 #4a4a4e, /*main 3d shadow*/ -1px 0px 0 #343437, -2px 1px 0 #343437, -3px 2px 0 #313134, -4px 3px 0 #2f2f31, -5px 4px 0 #2c2c2f, -6px 5px 0 #2a2a2c, -7px 6px 0 #27272a, -8px 7px 0 #252527, -9px 8px 0 #232324, -10px 9px 0 #202022, -11px 10px 0 #1e1e1f, -12px 11px 0 #1b1b1d, -13px 12px 0 #19191a, -14px 13px 0 #161617, -15px 14px 0 #141415, -16px 15px 0 #111112, /*top right*/ 0 -1px 1px #ffffff, 0 -2px 0px #ffffff, /*bottom left corner*/ -15px 14px 0px #ffffff, -16px 15px 0px #ffffff, -17px 16px 0px #ffffff, -18px 17px 0px #ffffff, -2px -1px 0 #ffffff, -3px 0px 0 #ffffff, /*top left corner*/ -19px 15px 0 #ffffff, -18px 14px 0 #ffffff, -17px 13px 0 #ffffff, -16px 12px 0 #ffffff, -15px 11px 0 #ffffff, -14px 10px 0 #ffffff, -13px 9px 0 #ffffff, -12px 8px 0 #ffffff, -11px 7px 0 #ffffff, -10px 6px 0 #ffffff, -9px 5px 0 #ffffff, -8px 4px 0 #ffffff, -7px 3px 0 #ffffff, -6px 2px 0 #ffffff, -5px 1px 0 #ffffff, -4px 0px 0 #ffffff, /*lower right / (upper right side for capital T like H etc letters. */ 0px 2px 0px #ffffff, -1px 3px 0px #ffffff, -2px 4px 0px #ffffff, -3px 5px 0px #ffffff, -4px 6px 0px #ffffff, -5px 7px 0px #ffffff, -6px 8px 0px #ffffff, -7px 9px 0px #ffffff, -8px 10px 0px #ffffff, -9px 11px 0px #ffffff, -10px 12px 0px #ffffff, -11px 13px 0px #ffffff, -12px 14px 0px #ffffff, -13px 15px 0px #ffffff, -14px 16px 0px #ffffff, -15px 17px 0px #ffffff;
+}
